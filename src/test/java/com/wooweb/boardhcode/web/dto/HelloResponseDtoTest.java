@@ -1,4 +1,4 @@
-package com.wooweb.boardhcode.controller.dto;
+package com.wooweb.boardhcode.web.dto;
 
 import org.junit.jupiter.api.Test;
 

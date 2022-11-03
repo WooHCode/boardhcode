@@ -1,4 +1,4 @@
-package com.wooweb.boardhcode.controller;
+package com.wooweb.boardhcode.web;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
