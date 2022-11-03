@@ -1,6 +1,6 @@
-package com.wooweb.boardhcode.controller;
+package com.wooweb.boardhcode.web;
 
-import com.wooweb.boardhcode.controller.dto.HelloResponseDto;
+import com.wooweb.boardhcode.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

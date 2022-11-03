@@ -1,4 +1,4 @@
-package com.wooweb.boardhcode.service;
+package com.wooweb.boardhcode.service.posts;
 
 import org.springframework.stereotype.Service;
 
