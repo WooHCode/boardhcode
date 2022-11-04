@@ -23,11 +23,17 @@ public class Posts {
 
     private String author;
 
-    @Builder  /**  빌더 패턴을 생성해준다. 파라미터가 많아질수록 가독성이 안좋아지므로 선호한다.
-                    ex) Posts posts = Posts.builder().title("title").content("content").author("author").build();*/
+    /**  빌더 패턴을 생성해준다. 파라미터가 많아질수록 가독성이 안좋아지므로 선호한다.
+     ex) Posts posts = Posts.builder().title("title").content("content").author("author").build();*/
+    @Builder
     public Posts(String title, String content, String author){
         this.title = title;
         this.content = content;
         this.author = author;
     }
+    public void update(String title, String content){
+        this.title = title;
+        this.content = content;
+    }
+
 }
